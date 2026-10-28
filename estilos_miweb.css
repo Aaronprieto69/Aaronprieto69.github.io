@@ -1,5 +1,6 @@
 h1{
-    color: purple;
+    color: black;
+    background-color: white;
     text-align: center;
 }
 
@@ -25,9 +26,14 @@ header {
     height: 140px;
     margin-left: 0;
 }
+img.escudo {
+    width: 140px;
+    height: 140px;
+}
 
 p {
-    
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
     text-align: center;
 }
 .texto-fondo {
@@ -83,5 +89,12 @@ body {
 .menu a:hover {
     background-color: yellow;
     color: red;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
  
