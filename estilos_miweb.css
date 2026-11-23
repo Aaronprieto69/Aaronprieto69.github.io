@@ -148,3 +148,28 @@ footer{
     align-items: center;
     gap: 20px;
 }
+#sergio-entrenador {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#jose-juan {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.noticia {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.noticia p {
+    flex: 1;
+}
+
+.noticia img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
