@@ -1,6 +1,27 @@
 h1{
-    color: purple;
+    color: white;
+    background-color: black;
     text-align: center;
+    border: solid red 5px;
+    padding: 10px;
+    margin: 150px;
+}
+h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin: 175px;
+    border: solid red 5px;
+}
+h3{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: solid red 5px;
+    padding: 10px;
+    margin: 150px;
 }
 
 img.imagenes {
@@ -25,9 +46,14 @@ header {
     height: 140px;
     margin-left: 0;
 }
+img.escudo {
+    width: 140px;
+    height: 140px;
+}
 
 p {
-    
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
     text-align: center;
 }
 .texto-fondo {
@@ -35,13 +61,14 @@ p {
     color: white;
     padding: 15px;
     border-radius: 10px;
+    margin: 145px;
     
 }
 
 
 body {
     margin: 0;
-    background-image: url("imagenes/escudo-fondo.png");
+    background-image: url("imagenes/fondo-web.jpg");
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
@@ -84,4 +111,65 @@ body {
     background-color: yellow;
     color: red;
 }
- 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.texto-footer{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+    text-align: center;
+}
+.texto-estadio{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.contenedor{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.contenedor img{
+    width: 700px;
+    height: 800px;
+    object-fit: cover;
+}
+.estadio{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#sergio-entrenador {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#jose-juan {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.noticia {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.noticia p {
+    flex: 1;
+}
+
+.noticia img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
