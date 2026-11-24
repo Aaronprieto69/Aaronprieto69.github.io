@@ -1,0 +1,197 @@
+
+/* DORSALES */
+
+.dorsal {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* TARJETAS DE PORTEROS */
+
+.jugadores {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 20px;
+}
+
+.jugador {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 4px solid red;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.jugador:hover {
+    transform: translateY(-8px);
+    border-color: yellow;
+}
+
+.jugador img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+.jugador h3 {
+    font-size: 27px;
+    color: white;
+    margin: 15px;
+}
+
+.jugador p {
+    color: white;
+    font-size: 20px;
+}
+
+/* BOTÓN VOLVER */
+
+.volver {
+    text-align: center;
+    margin: 40px;
+}
+
+.volver a {
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.volver a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+/* ESTILO GENERAL */
+
+body {
+    margin: 0;
+    background-image: url("../imagenes/fondo-web.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* CABECERA */
+
+header {
+    width: 100%;
+    min-height: 140px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 4px solid red;
+}
+#headerimg {
+    width: 140px;
+    height: 140px;
+    margin-left: 0;
+}
+
+header h1 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+/* MENÚ */
+
+.menu {
+    width: 100%;
+    background-color: white;
+}
+
+.menu ol {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+/* TÍTULOS */
+
+h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    padding: 15px;
+    margin: 40px auto;
+    border: solid red 4px;
+    max-width: 700px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 27px;
+}
+/* TEXTO */
+
+p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* CONTENEDOR DE CATEGORÍAS */
+
+.categorias {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}

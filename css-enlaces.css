@@ -81,7 +81,7 @@ body {
     background-color: white;
 }
 
-.menu ul {
+.menu ol {
     display: flex;
     flex-direction: row;
     justify-content: center;

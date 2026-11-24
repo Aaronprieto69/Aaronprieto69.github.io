@@ -1,0 +1,254 @@
+
+/* ESTILO GENERAL */
+
+body {
+    margin: 0;
+    background-image: url("../imagenes/fondo-web.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* CABECERA */
+
+header {
+    width: 100%;
+    min-height: 140px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 4px solid red;
+}
+#headerimg {
+    width: 140px;
+    height: 140px;
+    margin-left: 0;
+}
+
+header h1 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+/* MENÚ */
+
+.menu {
+    width: 100%;
+    background-color: white;
+}
+
+.menu ol {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+/* TÍTULOS */
+
+h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    padding: 15px;
+    margin: 40px auto;
+    border: solid red 4px;
+    max-width: 700px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 27px;
+}
+
+/* TEXTO */
+
+p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* CONTENEDOR DE CATEGORÍAS */
+
+.categorias {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* TARJETAS */
+
+section {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: scale(1.03);
+    border-color: yellow;
+}
+
+section p {
+    color: white;
+}
+
+/* BOTONES */
+
+section a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 12px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+/* FICHAS DE JUGADORES */
+
+.jugadores {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.jugador {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.jugador img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.jugador h3 {
+    color: white;
+}
+
+.jugador a {
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.jugador a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* INFORME INDIVIDUAL */
+
+.informe {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.informe img {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.informe p {
+    color: white;
+    line-height: 1.6;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border-top: 4px solid red;
+    margin-top: 50px;
+}
+/* COLOCAR IMAGEN Y BOTÓN EN VERTICAL */
+
+section img {
+    display: block;
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    margin: 15px auto;
+}
+
+section a {
+    display: block;
+    width: fit-content;
+    margin: 10px auto 0;
+    position: relative;
+    top: -5px;
+}
+
+/* REDUCIR ESPACIO INTERIOR */
+section {
+    padding: 15px;
+}
